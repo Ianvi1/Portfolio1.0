@@ -1,12 +1,17 @@
-import viteLogo from '/letra-i.svg'
-import './App.css'
+import './globals.sass'
+
+import {Outlet} from 'react-router-dom';
+import Navbar from './components/Navbar';
 
 function App() {
 
   return (
     <>
      <div>
-      <h1>oi</h1>
+      <Navbar/>
+      <h1>portfolio</h1>
+      <Outlet />
+      <p>footer</p>
      </div>
     </>
   )
