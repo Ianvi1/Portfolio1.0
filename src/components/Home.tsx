@@ -32,7 +32,6 @@ const HomePage = () => {
           <DiCode className='CodeIcon'/>
         </div>
     </div>
-
   </main>
   )
 }
