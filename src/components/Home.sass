@@ -42,14 +42,15 @@
 
 
 .ButtonArea
-  display: inline-flex
+  display: inline-flex 
   align-items: center
   width:125px
   height: 50px
-  border: 2px solid 
+  border: 2px solid #e02942
   border-radius: 8px
   margin: 20px
   margin-top: 20rem
+  position: relative
 
   a
     text-decoration: none
@@ -61,8 +62,13 @@
     width:125px
     height:50px
     justify-content: center
-
   p
     font-size: 14px
     margin-right: 10px
+    z-index:10
 
+  a:hover
+    transition: .5s
+    color:#e02942
+    border-radius: 8px
+    
