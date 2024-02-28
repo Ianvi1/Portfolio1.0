@@ -10,7 +10,7 @@ const AboutPage = () => {
       <div className='AboutPage'>
         <div className='ImageArea'>
           <div className='Square'>q</div>
-          <div className='ButtonArea'>
+          <div className='ButtonArea About'>
           <a href='' target='_blank' rel='noreferrer'>
           <IoMdDownload className='DownloadIcon' />
           <p>Curriculo</p>
@@ -18,13 +18,12 @@ const AboutPage = () => {
           </div>
         </div>
         <div className='AboutArea'>
-          <h1>SOBRE MIM</h1>
-          <p>Nascido em São Paulo, no ano de 2021 decidi me tornar um desenvolvedor, estudando por conta própria
+          <h1 className='Bar'>SOBRE MIM</h1>
+          <p>Nascido em São Paulo, no ano de 2021 decidi me tornar um <span>desenvolvedor</span>, estudando por conta própria
              e vendo vídeos para entender tudo sobre, e até fazendo cursos pagos, já trabalhei com TI, e atualmente estou em busca 
-             de aplicação no mercado de desenvolvimento web como front-end, buscando em me tornar fullstack futuramente, no momento eu apenas trabalho voluntariamente
+             de aplicação no mercado de desenvolvimento web como <span>front-end</span>, buscando em me tornar <span>fullstack</span> futuramente, no momento eu apenas trabalho voluntariamente
              com programação de um projeto start-up de uma empresa sem ganhos financeiros ainda, e estou cursando no meu ultimo semestre na área de manutenção e suporte em computadores.
              Sou uma pessoa que sempre irá buscar aprender algo na área de qualquer forma que seja, pois aprender é um habito que sempre devemos ter.</p>
-          <span></span>
           <div className='AboutInfo'>
             <AiOutlineMail className='AboutIcon'/>
             <div>
