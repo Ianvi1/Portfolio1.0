@@ -9,20 +9,44 @@ const SkillsPage = () => {
   return (
     <main>
       <div className='SkillsPage'>
-        <div className='SkillsArea'>
-          <div className='TextArea'>
+        <div className='TextArea'>
             <h1>Front-End</h1>
             <div className='BarArea'></div>
-        <div className='IconsArea'>
-            <FaReact className='ReactIcon'/>
-            <p>React</p>
-            <p>1 Ano de Experiência</p>
-            <div className='ColumnBarLeft'></div>
-            <div className='ColumnBarRight'></div>
-        </div>
+            </div>
+        <div className='SkillsArea'>
+            <div className='IconsArea'>
+                <FaReact className='ReactIcon'/>
+                <p>React</p>
+                <p>1 Ano de Experiência</p>
+                <div className='ColumnBarRight'></div>      
+            </div>
+            <div className='IconsArea'>
+                <FaReact className='ReactIcon'/>
+                <p>React</p>
+                <p>1 Ano de Experiência</p>
+                <div className='ColumnBarRight'></div>      
+            </div>
+            <div className='IconsArea'>
+                <FaReact className='ReactIcon'/>
+                <p>React</p>
+                <p>1 Ano de Experiência</p>
+                <div className='ColumnBarRight'></div>      
+            </div>
+            <div className='IconsArea'>
+                <FaReact className='ReactIcon'/>
+                <p>React</p>
+                <p>1 Ano de Experiência</p>
+                <div className='ColumnBarLeft'></div>
+                <div className='ColumnBarRight'></div>      
+            </div>
+            <div className='IconsArea'>
+                <FaReact className='ReactIcon'/>
+                <p>React</p>
+                <p>1 Ano de Experiência</p>
+                <div className='ColumnBarLeft'></div>    
+            </div>
           </div>
         </div>
-      </div>
     </main>
   )
 }
