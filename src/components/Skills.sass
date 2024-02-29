@@ -1,13 +1,12 @@
 .SkillsPage
   background-color:#0e0c0c
   width:  100%
-  height: 60vh
+  height: 70vh
   justify-content: center
   display: flex
   align-items: center
   position: relative
   overflow: hidden
-
 
 .TextArea
   display: flex
@@ -15,7 +14,7 @@
   align-items: center
   justify-content: center
   position: absolute
-  margin-bottom: 18rem
+  margin-bottom: 28rem
   h1
     font-size: 30px
     text-align: center
@@ -28,35 +27,89 @@
 
 .SkillsArea
   display: flex
-  justify-content: center
-  align-items: center
-  flex-direction: row
+  flex-wrap: wrap
+  justify-content: space-between
+  gap: 1.5rem
+  width: 100%
 
-  .IconsArea
-    padding-top: 10rem
-    display: flex
-    flex-direction: column
-    align-items: center
-    position: relative
-
+  .TechInfo
     p
       margin-top: 5px
       text-align: center
       color: #e1e1e1
-    .ReactIcon
-      color: #94dff3
-      font-size: 32px
-    .ColumnBarLeft
-      width: 2px
-      height: 200px
-      background: #e02946
-      top: 50%
-      position: absolute
-      margin-left: 15rem
-    .ColumnBarRight
-      width: 2px
-      height: 200px
-      background: #e02946
-      top: 50%
-      position: absolute
-      margin-right: 15rem
+      font-weight: 300
+    h3
+      margin-top: 11px
+      margin-bottom: 5px
+      text-align: center
+      color:#FFF
+      font-weight: 400
+
+.TechCard
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-between
+  flex-direction: row
+  align-items: center
+  flex: 0 0 calc(20% - 0.75rem) 
+  height: calc(25% - 0.75rem) 
+  margin-top: 50px
+
+.BarTop
+  height: 2px
+  width: 90%
+  background: #e02946
+  top: 53%
+  position: absolute
+  margin-left: 6rem  
+       
+// icons 
+
+.icon
+  font-size: 32px
+
+// frontend icons
+
+.HtmlIcon
+  color:#ec4d26
+
+.CssIcon
+  color:#1b72bd
+
+.JsIcon
+  color:#eedb4d
+
+.ReactIcon
+  color:#94dff3
+
+.BsIcon
+  color:#5b397b
+
+.SassIcon
+  color:#c76494
+
+.NextIcon
+  color:#d2cfcf
+
+.TsIcon
+  color:#2f74c0
+
+// backend icons
+
+.NodeIcon
+  color: #7dc908
+
+.MySqlIcon
+  color: #00718b
+
+.MongoDbIcon
+  color: #12a54f
+
+.PostGreIcon
+  color: #2e5d8d
+
+.ExpressIcon
+  color:#7e7e7e
+
+.JavaIcon
+  color: #e1e1e1
