@@ -19,7 +19,7 @@ const frontendTech = [
 ]
 
 const backendTech = [
-  { id: "mysql", name: "Mysql", text: "1 ano de Experiência", icon: <GrMysql className='MySqlIcon icon'/>},
+  { id: "mysql", name: "MySql", text: "1 ano de Experiência", icon: <GrMysql className='MySqlIcon icon'/>},
   { id: "node", name: "Node", text: "6 meses de Experiência", icon: <FaNodeJs className='NodeIcon icon'/> },
   { id: "mongodb", name: "MongoDB", text: "Desenvolvendo", icon: <SiMongodb className='MongoDbIcon icon'/>},
   { id: "postgre", name: "Postgre", text: "Desenvolvendo", icon: <BiLogoPostgresql className='PostGreIcon icon'/>},

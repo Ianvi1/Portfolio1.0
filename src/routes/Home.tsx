@@ -1,6 +1,7 @@
 import HomePage from "../components/Home"
 import AboutPage from "../components/About"
 import SkillsPage from "../components/Skills"
+import ProjectsPage from "../components/Projects"
 
 const Home = () => {
   return (
@@ -8,6 +9,7 @@ const Home = () => {
       <HomePage/>
       <AboutPage/>
       <SkillsPage/>
+      <ProjectsPage/>
     </main>
     
   )
