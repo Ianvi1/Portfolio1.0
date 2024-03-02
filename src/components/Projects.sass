@@ -1,31 +1,31 @@
 .ProjectsPage
+  display: flex
   background-color:#0e0c0c
   width:  100%
-  height: 80vh
-  justify-content: center
-  display: flex
+  height: 200vh
+  justify-content: flex-start
   align-items: center
   position: relative
   overflow: hidden
+  flex-direction: column
 
 .ProjectsArea
-  position: relative
+  display: grid
+  grid-template-columns: repeat(3, 1fr)
+  grid-gap: 20px
+  width: 500px
+  margin-top: 10rem
+  margin-left: 23rem
+
+.ProjectsBox
   display: flex
   flex-direction: column
-  align-items: center
-  width: 25rem
-  height: 12rem
-
-.ProjectsRow
-
-
-.ProjectImage
-
+  padding: 20px
 
 .TechImage
    border: 3px solid #e02946
    border-radius: 8px
-  
+   
 .ProjectText
 
   h3
@@ -38,18 +38,35 @@
     color: #a1a1a1
     font-weight: 300
     text-align: left
+    
 
 .TechUsage
   display: flex
   align-items: center
   margin-top: 8px
+  justify-content: flex-start
+
   p
     text-align: left
     color: #e1e1e1
     text-transform: uppercase
     font-size: 18px
+    margin-right: 10px
+    margin-top: 0.5rem
   .TechIcon
-    margin-right: 13rem
     display: flex
-    justify-content: space-between
+    margin-top: 8px
+    flex-direction: row
+ 
   
+.Buttons
+  display: flex
+  align-items: center
+  margin-top: 20px  
+  flex-direction: row
+  justify-content: space-around
+
+.ButtonsArea
+  display: inline-flex 
+  margin-top: 20px
+  margin-left: 0.1rem
