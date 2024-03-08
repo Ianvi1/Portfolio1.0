@@ -6,7 +6,7 @@ import { FaMapMarkerAlt } from "react-icons/fa";
 
 const AboutPage = () => {
   return (
-    <main>
+    <main id='about'>
       <div className='AboutPage'>
         <div className='ImageArea'>
           <div className='Square'>q</div>

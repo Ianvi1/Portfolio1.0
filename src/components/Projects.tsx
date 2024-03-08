@@ -18,7 +18,7 @@ const projectsTech = [
 
 const ProjectsPage = () => {
   return (
-    <main>
+    <main id='projects'>
       <div className='ProjectsPage'>
       <div className='TextArea'>
             <h1>Projetos</h1>

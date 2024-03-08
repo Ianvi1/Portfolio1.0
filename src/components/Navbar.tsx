@@ -1,32 +1,41 @@
-import {Link} from "react-router-dom";
 import logoianvi from "../img/logoianvi.png";
 import './Navbar.sass'
 
 const Navbar = () => {
+
+  
   return (
-  <header>
+    <header>
       <nav>
         <div className="logo">
-          <img src={logoianvi} />
+          <img src={logoianvi} alt="Logo" />
         </div>
         <h1>Ian Vieira</h1>
-      <ul className="links">
+        <ul className="links">
           <li>
-         <Link to="/"><a>Início<div className="bar"></div></a></Link>
-         </li>
-        <li>
-         <Link to="/about"><a>Sobre<div className="bar"></div></a></Link>
-        </li>
-        <li>
-         <Link to="/skills"><a>Habilidades<div className="bar"></div></a></Link>
-        </li>
-        <li>
-         <Link to="/projects"><a>Projetos<div className="bar"></div></a></Link>
-        </li>
-      </ul>
-    </nav>
-  </header>
-  )
-}
+              <a href="#home" className="active">
+                Início
+              </a>
+          </li>
+          <li>
+            <a href="#about">
+                Sobre
+              </a>
+          </li>
+          <li>
+          <a href="#skills">
+                Habilidades
+              </a>
+          </li>
+          <li>
+          <a href="#projects">
+                Projetos
+              </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+  );
+};
 
-export default Navbar
+export default Navbar;

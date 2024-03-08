@@ -30,7 +30,7 @@ const backendTech = [
 
 const SkillsPage = () => {
   return (
-    <main>
+    <main id='skills'>
       <div className='SkillsPage'>
         <div className='TextArea'>
             <h1>Front-End</h1>

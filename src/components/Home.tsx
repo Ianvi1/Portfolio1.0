@@ -7,7 +7,7 @@ import { VscGithubAlt } from "react-icons/vsc";
 
 const HomePage = () => {
   return (
-  <main>
+  <main id='home'>
     <div className='HomePage'>
         <div className='TextBox'>
           <p>Opa! Como vai? eu me chamo</p>
