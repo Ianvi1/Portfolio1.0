@@ -8,19 +8,20 @@
   position: relative
   overflow: hidden
 
-.TextBox
-  font-size: 25px
-  color: #FFF
-  font-weight:300
-  letter-spacing: 2px
-  margin-left: 20rem
-  text-transform: uppercase
-  white-space: nowrap
-  margin-bottom: 20px
+  .TextBox
+    font-size: 25px
+    color: #FFF
+    font-weight:300
+    letter-spacing: 2px
+    margin-left: 20rem
+    text-transform: uppercase
+    white-space: nowrap
+    margin-bottom: 20px
 
-.NameBox
-  color: #e02946
-  font-size: 60px
+  .NameBox
+    color: #e02946
+    font-size: 60px
+    font-weight: 300
 
 
 .CodeIcon
@@ -40,35 +41,34 @@
   left: 25rem
   top: 16rem
 
-
-.ButtonArea
-  display: inline-flex 
-  align-items: center
-  width:125px
-  height: 50px
-  border: 2px solid #e02942
-  border-radius: 8px
-  margin: 20px
-  margin-top: 20rem
-  position: relative
-
+  .ButtonArea
+    position: relative
+    display: inline-flex 
+    align-items: center
+    width:125px
+    height: 50px
+    border: 2px solid #e02942
+    border-radius: 8px
+    margin: 20px
+    margin-top: 20rem
+    &:hover
+      background-color:#e02942
+      transition: .5s
+      border: none
   a
+    display: flex
+    align-items: center
+    justify-content: center
+    width:120px
+    height:50px
     text-decoration: none
     color: #FFF
     font-size: 32px 
-    display: flex
-    align-items: center
-    justify-content: space-between
-    width:125px
-    height:50px
-    justify-content: center
+    border-radius: 8px
+    transition: color 0.5s
   p
     font-size: 14px
     margin-right: 10px
     z-index:10
 
-  a:hover
-    transition: .5s
-    color:#e02942
-    border-radius: 8px
-    
+  
