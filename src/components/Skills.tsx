@@ -11,11 +11,11 @@ const frontendTech = [
   { id: "html", name: "HTML", text: "2 Anos de Experiência", icon: <FaHtml5 className='HtmlIcon icon'/> },
   { id: "css", name: "CSS", text: "2 Anos de Experiência",  icon: <FaCss3Alt className='CssIcon icon'/> },
   { id: "js", name: "JavaScript", text: "2 Anos de Experiência", icon: <IoLogoJavascript className='JsIcon icon'/> },
+  { id: "ts", name: "TypeScript", text: "2 Anos de Experiência", icon: <SiTypescript className='TsIcon icon'/> },
   { id: "react", name: "React", text: "1 Anos de Experiência", icon: <FaReact className='ReactIcon icon'/> },
   { id: "bootstrap", name: "Bootstrap", text: "1 Anos de Experiência", icon: <FaBootstrap className='BsIcon icon'/> },
   { id: "sass", name: "Sass", text: "1 Anos de Experiência", icon: <FaSass className='SassIcon icon'/> },
   { id: "next", name: "Next", text: "6 Meses de Experiência", icon: <SiNextdotjs className='NextIcon icon'/> },
-  { id: "ts", name: "TypeScript", text: "2 Anos de Experiência", icon: <SiTypescript className='TsIcon icon'/> },
 ]
 
 const backendTech = [
