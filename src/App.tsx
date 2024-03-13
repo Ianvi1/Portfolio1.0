@@ -10,7 +10,6 @@ function App() {
      <div>
       <Navbar/>
       <Outlet />
-      <p>footer</p>
      </div>
     </>
   )

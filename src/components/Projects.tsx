@@ -8,11 +8,11 @@ import { SiNextdotjs, SiTypescript, } from "react-icons/si";
 const projectsTech = [
   { id: "project1", name: "Project Awax", text: "Projeto criado em HTML e CSS pelo curso B7Web, landing page.", img: <img className='TechImage' src='../../public/projectsPortfolio.png' />, icon1: <FaHtml5 className='HtmlIcon icon tech'/>, icon2: <FaCss3Alt className='CssIcon icon tech'/> },
   { id: "project2", name: "Project Starbucks", text: "Projeto criado em HTML e CSS pelo curso B7Web, landing page responsivo, clone do starbucks.", img: <img className='TechImage' src='../../public/projectsPortfolio2.png' />, icon1: <FaHtml5 className='HtmlIcon icon tech'/>, icon2: <FaCss3Alt className='CssIcon icon tech'/> },
-  { id: "project3", name: "Project Costs", text: "Projeto em React com api criada, pelo curso React do 'Matheus Battisti'.", img: <img className='TechImage' src='../../public/projectsPortfolio2.png' />, icon1: <FaHtml5 className='HtmlIcon icon tech'/>, icon2: <FaCss3Alt className='CssIcon icon tech'/>, icon3:<IoLogoJavascript className='JsIcon icon tech'/>, icon4:<FaReact className='ReactIcon icon tech'/> },
-  { id: "project4", name: "Project MultiStep", text: "Projeto em React usando um formulário, pelo curso React do 'Matheus Battisti'.", img: <img className='TechImage' src='../../public/projectsPortfolio2.png' />, icon1: <FaHtml5 className='HtmlIcon icon tech'/>, icon2: <FaCss3Alt className='CssIcon icon'/>, icon3:<IoLogoJavascript className='JsIcon icon tech'/>, icon4:<FaReact className='ReactIcon icon tech'/> },
-  { id: "project5", name: "Project ModalPizza", text: "Projeto em JavaScript com api criada, modais com pizza, pelo curso B7Web.", img: <img className='TechImage' src='../../public/projectsPortfolio2.png' />, icon1: <FaHtml5 className='HtmlIcon icon tech'/>, icon2: <FaCss3Alt className='CssIcon icon tech'/>, icon3:<IoLogoJavascript className='JsIcon icon tech'/>},  
-  { id: "project6", name: "Project GitHubSearch", text: "Projeto em React com api do Github,  e usando Typescript, pelo curso React do 'Matheus Battisti'.", img: <img className='TechImage' src='../../public/projectsPortfolio2.png' />, icon1: <FaHtml5 className='HtmlIcon icon'/>, icon2: <FaCss3Alt className='CssIcon icon'/>, icon3:<IoLogoJavascript className='JsIcon icon tech'/>, icon4:<FaReact className='ReactIcon icon tech'/>, icon5:<SiTypescript className='TsIcon icon tech'/>},
-  { id: "project7", name: "Project Login/Cadastro", text: "Projeto de login e cadastro usando javascript, projeto pessoal.", img: <img className='TechImage' src='../../public/projectsPortfolio2.png' />, icon1: <FaHtml5 className='HtmlIcon icon tech'/>, icon2: <FaCss3Alt className='CssIcon icon tech'/>, icon3:<IoLogoJavascript className='JsIcon icon tech'/>}
+  { id: "project3", name: "Project Costs", text: "Projeto em React com api criada, pelo curso React do 'Matheus Battisti'.", img: <img className='TechImage' src='../../public/projectsPortfolio3.png' />, icon1: <FaHtml5 className='HtmlIcon icon tech'/>, icon2: <FaCss3Alt className='CssIcon icon tech'/>, icon3:<IoLogoJavascript className='JsIcon icon tech'/>, icon4:<FaReact className='ReactIcon icon tech'/> },
+  { id: "project4", name: "Project MultiStep", text: "Projeto em React usando um formulário, pelo curso React do 'Matheus Battisti'.", img: <img className='TechImage' src='../../public/projectsPortfolio4.png' />, icon1: <FaHtml5 className='HtmlIcon icon tech'/>, icon2: <FaCss3Alt className='CssIcon icon'/>, icon3:<IoLogoJavascript className='JsIcon icon tech'/>, icon4:<FaReact className='ReactIcon icon tech'/> },
+  { id: "project5", name: "Project ModalPizza", text: "Projeto em JavaScript com api criada, modais com pizza, pelo curso B7Web.", img: <img className='TechImage' src='../../public/projectsPortfolio5.png' />, icon1: <FaHtml5 className='HtmlIcon icon tech'/>, icon2: <FaCss3Alt className='CssIcon icon tech'/>, icon3:<IoLogoJavascript className='JsIcon icon tech'/>},  
+  { id: "project6", name: "Project GitHubSearch", text: "Projeto em React com api do Github,  e usando Typescript, pelo curso React do 'Matheus Battisti'.", img: <img className='TechImage' src='../../public/projectsPortfolio7.png' />, icon1: <FaHtml5 className='HtmlIcon icon'/>, icon2: <FaCss3Alt className='CssIcon icon'/>, icon3:<IoLogoJavascript className='JsIcon icon tech'/>, icon4:<FaReact className='ReactIcon icon tech'/>, icon5:<SiTypescript className='TsIcon icon tech'/>},
+  { id: "project7", name: "Project Login/Cadastro", text: "Projeto de login e cadastro usando javascript, projeto pessoal.", img: <img className='TechImage' src='../../public/projectsPortfolio6.png' />, icon1: <FaHtml5 className='HtmlIcon icon tech'/>, icon2: <FaCss3Alt className='CssIcon icon tech'/>, icon3:<IoLogoJavascript className='JsIcon icon tech'/>}
 ]
 
 
@@ -20,10 +20,10 @@ const ProjectsPage = () => {
   return (
     <main id='projects'>
       <div className='ProjectsPage'>
-      <div className='TextArea'>
+      <div className='TextAreaProjects'>
             <h1>Projetos</h1>
             <div className='BarArea'></div>
-      </div> tech
+      </div>
         <div className='ProjectsArea'>   
         {projectsTech.map((pj) => (   
           <div className='ProjectsBox'>
@@ -60,8 +60,7 @@ const ProjectsPage = () => {
             </div>      
           </div>                  
         ))}
-        </div>
-        
+        </div>        
       </div>
     </main>
   )

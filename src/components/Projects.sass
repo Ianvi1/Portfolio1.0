@@ -1,31 +1,54 @@
 .ProjectsPage
-  display: flex
   background-color:#0e0c0c
+  display: flex
   width:  100%
-  height: 100vh
-  justify-content: flex-start
+  min-height: 100vh
+  justify-content: center
   align-items: center
   position: relative
   overflow: hidden
   flex-direction: column
 
+.TextAreaProjects
+  display: flex
+  flex-direction: column
+  align-items: flex-start
+  justify-content: center
+
+  
+  h1
+    font-size: 30px
+    text-align: center
+    margin-left: 1px 
+    text-transform: uppercase
+    color: #e1e1e1
+    font-weight: 300
+  .BarArea
+    background: #e02946
+    width: 160px
+    height: 3px
+
 .ProjectsArea
-  display: grid
+  display: flex
   grid-template-columns: repeat(3, 1fr)
   grid-gap: 20px
   width: 500px
-  margin-top: 10rem
   margin-left: 23rem
+  align-items: center
+
 
 .ProjectsBox
   display: flex
   flex-direction: column
   padding: 20px
+  align-items: center
+  justify-content: center
 
 .TechImage
    border: 3px solid #e02946
    border-radius: 8px
-   
+
+
 .ProjectText
 
   h3
@@ -44,7 +67,7 @@
   display: flex
   align-items: center
   margin-top: 8px
-  justify-content: flex-start
+
 
   p
     text-align: left
@@ -56,15 +79,13 @@
   .TechIcon
     display: flex
     margin-top: 8px
-    flex-direction: row
+    align-items: center
  
   
 .Buttons
   display: flex
   align-items: center
   margin-top: 20px  
-  flex-direction: row
-  justify-content: space-around
 
 .ButtonsArea
   display: inline-flex 
@@ -74,14 +95,12 @@
 
 .ButtonArea
     position: relative
-    display: inline-flex 
     align-items: center
     width:125px
     height: 50px
     border: 2px solid #e02942
     border-radius: 8px
-    margin: 20px
-    margin-top: 20rem
+    margin: 20px 
     &:hover
       background-color:#e02942
       transition: .5s
