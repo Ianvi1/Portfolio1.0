@@ -5,6 +5,13 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Home from './routes/Home.tsx';
 import ErrorPage from './routes/ErrorPage.tsx';
 
+import {register} from 'swiper/element-bundle';
+
+register();
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/scrollbar';
+
 const router = createBrowserRouter([
   { path: '/',
     element:<App/>, 
