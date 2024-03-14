@@ -65,7 +65,7 @@ const ProjectsPage: React.FC = () => {
                     </div>
                     <div className='ButtonArea Buttons'>
                       <a href='https://github.com/Ianvi1' target='_blank' rel='noreferrer'>
-                        <FaEye className='EyeIcon' />
+                        <FaEye size={28} className='EyeIcon' />
                         <p>Visualizar</p>
                       </a>
                     </div>
