@@ -5,9 +5,14 @@ import { SiNextdotjs, SiTypescript, SiExpress, SiMongodb } from "react-icons/si"
 import { BiLogoPostgresql } from "react-icons/bi";
 import { GrMysql } from "react-icons/gr";
 
+interface Skills {
+  id: string;
+  name: string;
+  text: string;
+  icon: JSX.Element;
+}
 
-
-const frontendTech = [
+const frontendTech: Skills[] = [
   { id: "html", name: "HTML", text: "2 Anos de Experiência", icon: <FaHtml5 className='HtmlIcon icon'/> },
   { id: "css", name: "CSS", text: "2 Anos de Experiência",  icon: <FaCss3Alt className='CssIcon icon'/> },
   { id: "js", name: "JavaScript", text: "2 Anos de Experiência", icon: <IoLogoJavascript className='JsIcon icon'/> },
