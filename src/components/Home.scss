@@ -1,0 +1,91 @@
+// Definindo o breakpoint
+$breakpoint-large: 1440px;
+
+.HomePage {
+  background-color: #0e0c0c;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+
+  .TextBox {
+    font-size: 25px;
+    color: #FFF;
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin-left: 20rem;
+    text-transform: uppercase;
+    white-space: nowrap;
+    margin-bottom: 20px;
+
+    // Responsividade para larguras de tela até 1440px
+    @media screen and (max-width: $breakpoint-large) {
+      margin-top: 20rem;
+    }
+  }
+
+  .NameBox {
+    color: #e02946;
+    font-size: 60px;
+    font-weight: 300;
+  }
+
+  .CodeIcon {
+    color: #e02946;
+    font-size: 30rem;
+  }
+
+  .CodeBox {
+    display: flex;
+    margin-right: 20rem;
+  }
+
+  // Button
+  .ButtonBox {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 25rem;
+    top: 16rem;
+
+    .ButtonArea {
+      position: relative;
+      display: inline-flex;
+      align-items: center;
+      width: 125px;
+      height: 50px;
+      border: 2px solid #e02942;
+      border-radius: 8px;
+      margin: 20px;
+      margin-top: 20rem;
+      
+      &:hover {
+        background-color: #e02942;
+        transition: .5s;
+        border: none;
+      }
+
+      a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 120px;
+        height: 50px;
+        text-decoration: none;
+        color: #FFF;
+        font-size: 32px;
+        border-radius: 8px;
+        transition: color 0.5s;
+      }
+
+      p {
+        font-size: 14px;
+        margin-right: 10px;
+        z-index: 10;
+      }
+    }
+  }
+}
