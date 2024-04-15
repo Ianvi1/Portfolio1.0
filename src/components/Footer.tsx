@@ -1,5 +1,4 @@
-import React from 'react'
-import './Footer.sass'
+import './Footer.scss'
 import { TiSocialLinkedin } from "react-icons/ti";
 import { CiInstagram } from "react-icons/ci";
 import { FaTwitch } from "react-icons/fa";

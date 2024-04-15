@@ -1,4 +1,4 @@
-import './Skills.sass'
+import './Skills.scss'
 import { FaReact, FaHtml5, FaCss3Alt, FaBootstrap, FaSass, FaNodeJs, FaJava } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
 import { SiNextdotjs, SiTypescript, SiExpress, SiMongodb } from "react-icons/si";

@@ -1,4 +1,4 @@
-import './Home.sass'
+import './Home.scss'
 import { DiCode, } from "react-icons/di";
 import { TiSocialLinkedin } from "react-icons/ti";
 import { VscGithubAlt } from "react-icons/vsc";

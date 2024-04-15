@@ -1,4 +1,4 @@
-import './About.sass'
+import './About.scss'
 import { IoMdDownload } from "react-icons/io";
 import { AiOutlineMail } from "react-icons/ai";
 import { FaMapMarkerAlt } from "react-icons/fa";

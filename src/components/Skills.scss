@@ -1,0 +1,149 @@
+.SkillsPage {
+  background-color: #0e0c0c;
+  width: 100%;
+  min-height: 100vh;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+
+  .TextArea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-bottom: 27rem;
+
+    h1 {
+      font-size: 30px;
+      text-align: center;
+      margin-left: 1px;
+      text-transform: uppercase;
+      color: #e1e1e1;
+      font-weight: 300;
+    }
+
+    .BarArea {
+      background: #e02946;
+      width: 160px;
+      height: 3px;
+      @media screen and (max-width: 1440px) {
+        display:none;
+      }
+    }
+    
+  }
+
+  .SkillsArea {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1.5rem;
+    width: 100%;
+
+    .TechInfo {
+      p {
+        margin-top: 5px;
+        text-align: center;
+        color: #e1e1e1;
+        font-weight: 300;
+      }
+
+      h3 {
+        margin-top: 11px;
+        margin-bottom: 5px;
+        text-align: center;
+        color: #fff;
+        font-weight: 400;
+      }
+    }
+
+    .TechCard {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      flex-direction: row;
+      align-items: center;
+      flex: 0 0 calc(20% - 0.75rem);
+      height: calc(25% - 0.75rem);
+      margin-top: 50px;
+    }
+  }
+
+  .BarTop {
+    height: 2px;
+    width: 90%;
+    background: #e02946;
+    top: 53%;
+    position: absolute;
+    margin-left: 6rem;
+  }
+
+  // icons 
+
+  .icon {
+    font-size: 32px;
+  }
+
+  // frontend icons
+
+  .HtmlIcon {
+    color: #ec4d26;
+  }
+
+  .CssIcon {
+    color: #1b72bd;
+  }
+
+  .JsIcon {
+    color: #eedb4d;
+  }
+
+  .ReactIcon {
+    color: #94dff3;
+  }
+
+  .BsIcon {
+    color: #5b397b;
+  }
+
+  .SassIcon {
+    color: #c76494;
+  }
+
+  .NextIcon {
+    color: #d2cfcf;
+  }
+
+  .TsIcon {
+    color: #2f74c0;
+  }
+
+  // backend icons
+
+  .NodeIcon {
+    color: #7dc908;
+  }
+
+  .MySqlIcon {
+    color: #00718b;
+  }
+
+  .MongoDbIcon {
+    color: #12a54f;
+  }
+
+  .PostGreIcon {
+    color: #2e5d8d;
+  }
+
+  .ExpressIcon {
+    color: #7e7e7e;
+  }
+
+  .JavaIcon {
+    color: #7e7e7e;
+  }
+}

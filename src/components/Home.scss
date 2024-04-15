@@ -1,6 +1,3 @@
-// Definindo o breakpoint
-$breakpoint-large: 1440px;
-
 .HomePage {
   background-color: #0e0c0c;
   width: 100%;
@@ -21,9 +18,11 @@ $breakpoint-large: 1440px;
     white-space: nowrap;
     margin-bottom: 20px;
 
-    // Responsividade para larguras de tela até 1440px
-    @media screen and (max-width: $breakpoint-large) {
-      margin-top: 20rem;
+    @media screen and (max-width: 1440px) {
+      margin-top: 8rem;
+      margin-left: 60px;
+      margin-right: auto;
+      text-align: center;
     }
   }
 
@@ -36,18 +35,28 @@ $breakpoint-large: 1440px;
   .CodeIcon {
     color: #e02946;
     font-size: 30rem;
+
+    @media screen and (max-width: 1440px) {
+      font-size: 42rem;
+    }
   }
 
   .CodeBox {
     display: flex;
     margin-right: 20rem;
+
+    @media screen and (max-width: 1440px) {
+      margin-top: 8rem;
+      margin-bottom: 2rem;
+      margin-left: 200px;
+    }
   }
 
   // Button
   .ButtonBox {
     display: flex;
     flex-direction: row;
-    position: absolute;
+    position: relative;
     left: 25rem;
     top: 16rem;
 
@@ -61,7 +70,16 @@ $breakpoint-large: 1440px;
       border-radius: 8px;
       margin: 20px;
       margin-top: 20rem;
-      
+
+      @media screen and (max-width: 1440px) {
+        display: flex;
+        justify-content: center; // Centraliza horizontalmente
+        margin: 0 auto;
+        margin-left: 3rem; // Centraliza horizontalmente e remove as margens
+        margin-top: 5rem; // Ajusta a margem superior
+        margin-bottom: 28rem; // Ajusta a margem inferior
+      }
+
       &:hover {
         background-color: #e02942;
         transition: .5s;
