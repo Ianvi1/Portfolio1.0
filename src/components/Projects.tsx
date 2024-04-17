@@ -52,7 +52,7 @@ const projectsTech: Project[] = [
                         </a>
                       </div>
                       <div className='ButtonArea Buttons'>
-                        <a href='https://github.com/Ianvi1' target='_blank' rel='noreferrer'>
+                        <a href='https://ianvi1.github.io/modalPizza/' target='_blank' rel='noreferrer'>
                           <FaEye size={28} className='EyeIcon' />
                           <p>Visualizar</p>
                         </a>

@@ -13,11 +13,15 @@
     display: flex;
     align-items: center;
     margin: 10rem;
+    @media screen  and (max-width: 320px) {
+      margin-right: 15rem;
+     }
 
     ul {
       display: flex;
       justify-content: center;
       align-items: center;
+      
     }
 
     li {
@@ -40,10 +44,10 @@
       height: 100px;
       user-select: none;
       margin-left: 25%;
-      @media screen and (max-width: 1440px) {
-        width: 60px;
-        height: 60px;
-       }
+       @media screen  and (max-width: 768px) {
+        width: 64px;
+        height: 64px;
+     }
     }
   }
 
@@ -53,8 +57,26 @@
      text-align: left;  
     }
     @media screen  and (max-width: 768px) {
-      font-size: 12px;
+      font-size: 7px;
+      margin-right: 15px;
+     }
+     @media screen  and (max-width: 320px) {
+      text-wrap: none;
+      text-align: center;
+      margin-left: 15px;
      }
   }
 
+  svg {
+    @media screen  and (max-width: 768px) {
+      width: 24px;
+      display: flex;
+      justify-content: center;
+      margin-left: 3rem;
+     }
+     @media screen  and (max-width: 320px) {
+      width: 12px;
+
+     }
+  }
 }
