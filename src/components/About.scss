@@ -7,7 +7,7 @@
   align-items: center;
   position: relative;
   overflow: hidden;
-
+  
 
 // About
 
@@ -15,12 +15,20 @@
   display: flex;
   flex-direction: column;
   margin-right: 22rem;
+  @media screen  and (max-width: 1024px) {
+    margin-right: 15rem;
+  }
+    @media screen  and (max-width: 768px) {
+        width: 400px;   
+      }
+
     
   h1 {
     font-weight: 400;
     font-size: 42px;
     margin: 0;
     color: #e1e1e1;
+    
   }
 
   .Bar:after {
@@ -31,6 +39,14 @@
     position: absolute;
     margin-top: 30px;
     margin-left: 15px;
+    @media screen  and (max-width: 1024px) {
+      width: 28rem;
+      
+    }
+    @media screen  and (max-width: 768px) {
+      width: 10rem;  
+    }
+
   }
 
   p {
@@ -38,6 +54,10 @@
     font-weight: 300;
     text-align: justify;
     letter-spacing: 1px;
+    @media screen  and (max-width: 1024px) {
+      font-size: 12px;
+      
+    }
   }
 
   .AboutInfo {
@@ -48,12 +68,16 @@
     p {
       font-weight: 500;
       color: #e9dcdc;
-      white-space: nowrap; // Correção: era text-wrap, troquei para white-space
+      white-space: nowrap; 
+    
     }
   }
 
   .AboutInfo > div {
     margin-right: 10rem;
+    @media screen  and (max-width: 768px) {
+      margin-right: 1.8rem;
+    }
   }
 
   .AboutIcon {
@@ -87,6 +111,9 @@
   @media screen and (max-width: 1440px) {
     margin-top: 2rem;
     margin-right: 5rem;
+  }
+  @media screen  and (max-width: 1024px) {
+    margin-right: 2rem;
   }
 
 

@@ -29,8 +29,8 @@
       background: #e02946;
       width: 160px;
       height: 3px;
-      @media screen and (max-width: 1440px) {
-        display:none;
+      @media screen  and (max-width: 1440px) {
+        display: none;
       }
     }
     
@@ -79,6 +79,11 @@
     top: 53%;
     position: absolute;
     margin-left: 6rem;
+    @media screen  and (max-width: 1024px) {
+      margin-left: 2rem;
+      width: 95%;
+    }
+    
   }
 
   // icons 

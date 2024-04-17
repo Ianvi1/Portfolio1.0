@@ -1,7 +1,7 @@
 import React from 'react';
 import { VscGithubAlt } from "react-icons/vsc";
 import { FaEye, } from "react-icons/fa";
-import './Projects.sass';
+import './Projects.scss';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 interface Project {

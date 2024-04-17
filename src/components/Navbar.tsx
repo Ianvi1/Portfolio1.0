@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import logoianvi from "../../public/LogoDark.png";
-import './Navbar.sass';
+import './Navbar.scss';
 
 const Navbar = () => {
   const [activeLink, setActiveLink] = useState<string>('#home');
