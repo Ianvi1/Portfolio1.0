@@ -15,11 +15,17 @@ interface Project {
 } 
 
 const projectsTech: Project[] = [
-  { id: "project1", name: "Project Awax", text: "Projeto criado em HTML e CSS pelo curso B7Web, landing page.", img: <img className='TechImage' src='../../public/imageport1.png' />, techs: "Html e Css.", githb: <a href='https://github.com/Ianvi1/AwaxPJ' target='_blank' rel='noreferrer'>
+  { id: "project1", name: "Project Awax", text: "Projeto criado em HTML e CSS pelo curso B7Web, landing page.", img: <img className='TechImage' src='../../public/imageport1.png' />, techs: "Html e Css.", deploy:<a href='' target='_blank' rel='noreferrer'>
+  <FaEye size={28} className='EyeIcon' />
+  <p>Visualizar</p>
+</a>, githb: <a href='https://github.com/Ianvi1/AwaxPJ' target='_blank' rel='noreferrer'>
   <VscGithubAlt className='GitHubIcon' />
   <p>Github</p>
 </a>},
-  { id: "project2", name: "Project Starbucks", text: "Projeto criado em HTML e CSS pelo curso B7Web, landing page responsivo, clone do starbucks.", img: <img className='TechImage' src='../../public/imageport2.png' />,techs: "Html e Css.", githb: <a href='https://github.com/Ianvi1/Starbucks-Layout' target='_blank' rel='noreferrer'>
+  { id: "project2", name: "Project Starbucks", text: "Projeto criado em HTML e CSS pelo curso B7Web, landing page responsivo, clone do starbucks.", img: <img className='TechImage' src='../../public/imageport2.png' />,techs: "Html e Css.", deploy:<a href='' target='_blank' rel='noreferrer'>
+  <FaEye size={28} className='EyeIcon' />
+  <p>Visualizar</p>
+</a>,githb: <a href='https://github.com/Ianvi1/Starbucks-Layout' target='_blank' rel='noreferrer'>
   <VscGithubAlt className='GitHubIcon' />
   <p>Github</p>
 </a>},
@@ -30,7 +36,10 @@ const projectsTech: Project[] = [
                           <VscGithubAlt className='GitHubIcon' />
                           <p>Github</p>
                         </a>},
-  { id: "project4", name: "Project MultiStep", text: "Projeto em React usando um formulário, pelo curso React do 'Matheus Battisti'.", img: <img className='TechImage' src='../../public/imageport5.png'/>,techs: "React.", githb: <a href='https://github.com/Ianvi1/MultistepReact' target='_blank' rel='noreferrer'>
+  { id: "project4", name: "Project MultiStep", text: "Projeto em React usando um formulário, pelo curso React do 'Matheus Battisti'.", img: <img className='TechImage' src='../../public/imageport5.png'/>,techs: "React.",deploy:<a href='' target='_blank' rel='noreferrer'>
+  <FaEye size={28} className='EyeIcon' />
+  <p>Visualizar</p>
+</a>, githb: <a href='https://github.com/Ianvi1/MultistepReact' target='_blank' rel='noreferrer'>
   <VscGithubAlt className='GitHubIcon' />
   <p>Github</p>
 </a>},
@@ -41,7 +50,10 @@ const projectsTech: Project[] = [
                           <VscGithubAlt className='GitHubIcon' />
                           <p>Github</p>
                         </a>},
-  { id: "project6", name: "Project GitHub Search", text: "Projeto em React, api github, com Typescript, pelo curso React do 'Matheus Battisti'.", img: <img className='TechImage' src='../../public/imageport4.png' />,techs: "React e TypeScript.", githb: <a href='https://github.com/Ianvi1/GitHubReact' target='_blank' rel='noreferrer'>
+  { id: "project6", name: "Project GitHub Search", text: "Projeto em React, api github, com Typescript, pelo curso React do 'Matheus Battisti'.", img: <img className='TechImage' src='../../public/imageport4.png' />,techs: "React e TypeScript.", deploy:<a href='' target='_blank' rel='noreferrer'>
+  <FaEye size={28} className='EyeIcon' />
+  <p>Visualizar</p>
+</a>,githb: <a href='https://github.com/Ianvi1/GitHubReact' target='_blank' rel='noreferrer'>
   <VscGithubAlt className='GitHubIcon' />
   <p>Github</p>
 </a>}]
