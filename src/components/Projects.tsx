@@ -2,6 +2,8 @@ import React from 'react';
 import { VscGithubAlt } from "react-icons/vsc";
 import { FaEye, } from "react-icons/fa";
 import './Projects.scss';
+import project1 from "../../public/imageport1.png";
+
 // import { Swiper, SwiperSlide } from 'swiper/react';
 
 interface Project {
@@ -15,7 +17,7 @@ interface Project {
 } 
 
 const projectsTech: Project[] = [
-  { id: "project1", name: "Project Awax", text: "Projeto criado em HTML e CSS pelo curso B7Web, landing page.", img: <img className='TechImage' src='/public/imageport1.png' />, techs: "Html e Css.", deploy:<a href='' target='_blank' rel='noreferrer'>
+  { id: "project1", name: "Project Awax", text: "Projeto criado em HTML e CSS pelo curso B7Web, landing page.", img: <img className='TechImage' src={project1}/>, techs: "Html e Css.", deploy:<a href='' target='_blank' rel='noreferrer'>
   <FaEye size={28} className='EyeIcon' />
   <p>Visualizar</p>
 </a>, githb: <a href='https://github.com/Ianvi1/AwaxPJ' target='_blank' rel='noreferrer'>
