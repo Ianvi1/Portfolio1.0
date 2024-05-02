@@ -37,27 +37,27 @@ const SkillsPage = () => {
   return (
     <main id='skills'>
       <div className='SkillsPage'>
-        <div className='TextArea'>
-            <h1>Front-End</h1>
-            <div className='BarArea'></div>
-            </div>
-        <div className='SkillsArea'>
-            {frontendTech.map((tech) => (
-             <div className='TechCard' id={tech.id} key={tech.id}>
-              {tech.icon}
-              <div className='TechInfo'>
-                <h3>{tech.name}</h3>
-                <p>{tech.text}</p>
+          <div className='TextArea'>
+              <h1>Front-End</h1>
+              <div className='BarArea'></div>
               </div>
-             </div>
-            ))}
-            <div className='BarTop'></div>         
-          </div>
+            <div className='SkillsArea'>
+              {frontendTech.map((tech) => (
+              <div className='TechCard' id={tech.id} key={tech.id}>
+                {tech.icon}
+                <div className='TechInfo'>
+                  <h3>{tech.name}</h3>
+                  <p>{tech.text}</p>
+                </div>
+              </div>
+              ))}
+              <div className='BarTop'></div>         
+            </div>
         </div>
         <div className='SkillsPage'>
-        <div className='TextArea'>
-            <h1>Back-End</h1>
-            <div className='BarArea'></div>
+            <div className='TextArea'>
+              <h1>Back-End</h1>
+              <div className='BarArea'></div>
             </div>
         <div className='SkillsArea'>
             {backendTech.map((tech) => (

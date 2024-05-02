@@ -1,5 +1,7 @@
+@import '../variables.scss';
+
 header {
-  background-color: #1a1717;
+  background-color: $b2;
   position: fixed;
   width: 100%;
   top: 0;
@@ -7,7 +9,7 @@ header {
   padding: 1.5rem 3%;
   display: flex;
   z-index: 99;
-  border-bottom: 2px solid #313131;
+  border-bottom: 2px solid $g2;
   justify-content: space-between;
   align-items: center;
 
@@ -36,7 +38,7 @@ header {
     h1 {
       font-size: 32px;
       font-weight: 300;
-      color: #FFF;
+      color: $w3;
       text-align: left;
       margin-left: 2rem;
       white-space: nowrap; 
@@ -50,7 +52,7 @@ header {
   nav a {
     position: relative;
     font-size: 1.2em;
-    color: #FFF;
+    color: $w3;
     text-decoration: none;
     margin-left: 40px;
     padding: 6px 20px;
@@ -60,11 +62,11 @@ header {
     }
 
     &:hover {
-      color: #f24764;
+      color: $r4;
     }
 
     &.active {
-      color: #f24764;
+      color: $r4;
     }
   }
 

@@ -1,5 +1,7 @@
+@import '../variables.scss';
+
 .AboutPage {
-  background-color: #0e0c0c;
+  background-color: $b1;
   width: 100%;
   height: 100vh;
   justify-content: center;
@@ -27,7 +29,7 @@
     font-weight: 400;
     font-size: 42px;
     margin: 0;
-    color: #e1e1e1;
+    color: $w1;
     
   }
 
@@ -35,7 +37,7 @@
     content: "";
     width: 34rem;
     height: 3px;
-    background-color: #e02946;
+    background-color: $r1;
     position: absolute;
     margin-top: 30px;
     margin-left: 15px;
@@ -50,7 +52,7 @@
   }
 
   p {
-    color: #e1e1e1;
+    color: $w1;
     font-weight: 300;
     text-align: justify;
     letter-spacing: 1px;
@@ -67,7 +69,7 @@
 
     p {
       font-weight: 500;
-      color: #e9dcdc;
+      color: $w2;
       white-space: nowrap; 
     
     }
@@ -82,7 +84,7 @@
 
   .AboutIcon {
     font-size: 24px;
-    color: #e24862;
+    color: $r2;
     margin-right: 12px;
   }
 
@@ -121,7 +123,7 @@
   img {
     width: 250px;
     height: 100%;
-    border: 4px solid #e02946;
+    border: 4px solid $r1;
     border-radius: 8px;
     transition: width 0.5s ease, height 0.5s ease;
 
@@ -133,17 +135,16 @@
   }
 
   .AboutIcon {
-    color: #ef4d6b;
-  }
+    color: $r3;
 
   p {
-    color: #e1e1e1;
+    color: $w1;
   }
 
   .ImageEdit {
     width: 200px;
     height: 100%;
-    border: 3px solid #e02946;
+    border: 3px solid $r1;
     border-radius: 64px;
   }
 
@@ -153,12 +154,12 @@
     align-items: center;
     width: 125px;
     height: 50px;
-    border: 2px solid #e02942;
+    border: 2px solid $r1;
     border-radius: 8px;
     margin: 20px;
 
     &:hover {
-      background-color: #e02942;
+      background-color: $r1;
       transition: 0.5s;
       border: none;
     }
@@ -170,7 +171,7 @@
       width: 120px;
       height: 50px;
       text-decoration: none;
-      color: #fff;
+      color: $w3;
       font-size: 32px;
       border-radius: 8px;
       transition: color 0.5s;
@@ -182,5 +183,6 @@
       z-index: 10;
     }
   }
+}
 }
 }

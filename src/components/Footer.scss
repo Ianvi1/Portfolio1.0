@@ -1,5 +1,7 @@
+@import '../variables.scss';
+
 .FooterPage {
-  background-color: #1a1717;
+  background-color: $b2;
   width: 100%;
   height: 15vh;
   justify-content: center;
@@ -7,7 +9,7 @@
   align-items: center;
   position: relative;
   overflow: hidden;
-  color: #e1e1e1;
+  color: $w1;
 
   .FooterArea {
     display: flex;
@@ -30,11 +32,11 @@
     }
 
     a {
-      color: #919191;
+      color: $g1;
       transition: ease all 0.3s;
         
       &:hover {
-        color: #e1e1e1;
+        color: $w1;
         transition: none;
       }
     }
