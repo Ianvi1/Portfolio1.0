@@ -2,6 +2,8 @@ import './About.scss'
 import { IoMdDownload } from "react-icons/io";
 import { AiOutlineMail } from "react-icons/ai";
 import { FaMapMarkerAlt } from "react-icons/fa";
+import perfil from "../../public/perfil2.0.jpg";
+import curriculo from "../../public/Curriculo Ian.pdf";
 
 
 const AboutPage = () => {
@@ -9,9 +11,9 @@ const AboutPage = () => {
     <main id='about'>
       <div className='AboutPage'>
         <div className='ProfileArea'>
-            <img className='Image' src='/public/perfil2.0.jpg'></img>
+            <img className='Image' src={perfil}></img>
             <div className='ButtonArea About'>
-            <a href='/public/Curriculo Ian.pdf' target='_blank' rel='noreferrer'>
+            <a href={curriculo} target='_blank' rel='noreferrer'>
             <IoMdDownload className='DownloadIcon' />
             <p>Curriculo</p>
             </a>

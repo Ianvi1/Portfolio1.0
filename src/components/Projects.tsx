@@ -3,6 +3,11 @@ import { VscGithubAlt } from "react-icons/vsc";
 import { FaEye, } from "react-icons/fa";
 import './Projects.scss';
 import project1 from "../../public/imageport1.png";
+import project2 from "../../public/imageport2.png";
+import project3 from "../../public/imageport3.png";
+import project4 from "../../public/imageport4.png";
+import project5 from "../../public/imageport5.png";
+import project6 from "../../public/imageport6.png";
 
 // import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -24,35 +29,35 @@ const projectsTech: Project[] = [
   <VscGithubAlt className='GitHubIcon' />
   <p>Github</p>
 </a>},
-  { id: "project2", name: "Project Starbucks", text: "Projeto criado em HTML e CSS pelo curso B7Web, landing page responsivo, clone do starbucks.", img: <img className='TechImage' src='/public/imageport2.png' />,techs: "Html e Css.", deploy:<a href='' target='_blank' rel='noreferrer'>
+  { id: "project2", name: "Project Starbucks", text: "Projeto criado em HTML e CSS pelo curso B7Web, landing page responsivo, clone do starbucks.", img: <img className='TechImage' src={project2} />,techs: "Html e Css.", deploy:<a href='' target='_blank' rel='noreferrer'>
   <FaEye size={28} className='EyeIcon' />
   <p>Visualizar</p>
 </a>,githb: <a href='https://github.com/Ianvi1/Starbucks-Layout' target='_blank' rel='noreferrer'>
   <VscGithubAlt className='GitHubIcon' />
   <p>Github</p>
 </a>},
-  { id: "project3", name: "Project Costs", text: "Projeto em React com api criada, pelo curso React do 'Matheus Battisti'.", img: <img className='TechImage' src='/public/imageport6.png' />,techs: "React.", deploy:<a href='https://costs-react-eight.vercel.app/' target='_blank' rel='noreferrer'>
+  { id: "project3", name: "Project Costs", text: "Projeto em React com api criada, pelo curso React do 'Matheus Battisti'.", img: <img className='TechImage' src={project6} />,techs: "React.", deploy:<a href='https://costs-react-eight.vercel.app/' target='_blank' rel='noreferrer'>
   <FaEye size={28} className='EyeIcon' />
   <p>Visualizar</p>
 </a>, githb: <a href='https://github.com/Ianvi1/CostsReact' target='_blank' rel='noreferrer'>
                           <VscGithubAlt className='GitHubIcon' />
                           <p>Github</p>
                         </a>},
-  { id: "project4", name: "Project MultiStep", text: "Projeto em React usando um formulário, pelo curso React do 'Matheus Battisti'.", img: <img className='TechImage' src='/public/imageport5.png'/>,techs: "React.",deploy:<a href='' target='_blank' rel='noreferrer'>
+  { id: "project4", name: "Project MultiStep", text: "Projeto em React usando um formulário, pelo curso React do 'Matheus Battisti'.", img: <img className='TechImage' src={project5}/>,techs: "React.",deploy:<a href='' target='_blank' rel='noreferrer'>
   <FaEye size={28} className='EyeIcon' />
   <p>Visualizar</p>
 </a>, githb: <a href='https://github.com/Ianvi1/MultistepReact' target='_blank' rel='noreferrer'>
   <VscGithubAlt className='GitHubIcon' />
   <p>Github</p>
 </a>},
-  { id: "project5", name: "Project ModalPizza", text: "Projeto em JavaScript com api criada, modais com pizza, pelo curso B7Web.", img: <img className='TechImage' src='/public/imageport3.png' />,techs: "Html, Css e JavaScript.", deploy:<a href='https://ianvi1.github.io/modalPizza/' target='_blank' rel='noreferrer'>
+  { id: "project5", name: "Project ModalPizza", text: "Projeto em JavaScript com api criada, modais com pizza, pelo curso B7Web.", img: <img className='TechImage' src={project3} />,techs: "Html, Css e JavaScript.", deploy:<a href='https://ianvi1.github.io/modalPizza/' target='_blank' rel='noreferrer'>
   <FaEye size={28} className='EyeIcon' />
   <p>Visualizar</p>
 </a>, githb: <a href='https://github.com/Ianvi1/modalPizza' target='_blank' rel='noreferrer'>
                           <VscGithubAlt className='GitHubIcon' />
                           <p>Github</p>
                         </a>},
-  { id: "project6", name: "Project GitHub Search", text: "Projeto em React, api github, com Typescript, pelo curso React do 'Matheus Battisti'.", img: <img className='TechImage' src='/public/imageport4.png' />,techs: "React e TypeScript.", deploy:<a href='' target='_blank' rel='noreferrer'>
+  { id: "project6", name: "Project GitHub Search", text: "Projeto em React, api github, com Typescript, pelo curso React do 'Matheus Battisti'.", img: <img className='TechImage' src={project4} />,techs: "React e TypeScript.", deploy:<a href='' target='_blank' rel='noreferrer'>
   <FaEye size={28} className='EyeIcon' />
   <p>Visualizar</p>
 </a>,githb: <a href='https://github.com/Ianvi1/GitHubReact' target='_blank' rel='noreferrer'>
