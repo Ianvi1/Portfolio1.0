@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import logoianvi from "../../public/LogoDark.png";
+import logoianvi from "/public/LogoDark.png";
 import './Navbar.scss';
 
 const Navbar = () => {

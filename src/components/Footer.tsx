@@ -2,7 +2,7 @@ import './Footer.scss'
 import { TiSocialLinkedin } from "react-icons/ti";
 import { CiInstagram } from "react-icons/ci";
 import { FaTwitch } from "react-icons/fa";
-import logoianvi from "../../public/LogoDark.png";
+import logoianvi from "/public/LogoDark.png";
 
 const Footer = () => {
   return (
