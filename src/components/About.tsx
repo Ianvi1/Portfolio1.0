@@ -2,7 +2,7 @@ import './About.scss'
 import { IoMdDownload } from "react-icons/io";
 import { AiOutlineMail } from "react-icons/ai";
 import { FaMapMarkerAlt } from "react-icons/fa";
-import perfil from "../../public/perfil2.0.jpg";
+import perfil from "../../public/perfil4.0.jpg";
 import curriculo from "../../public/Curriculo Ian.pdf";
 
 
@@ -21,15 +21,15 @@ const AboutPage = () => {
         </div>
         <div className='AboutArea'>
             <h1 className='Bar'>SOBRE MIM</h1>
-            <p>Nascido em São Paulo, no ano de 2021 decidi me tornar um <span>desenvolvedor</span>, estudando por conta própria
-              e vendo vídeos para entender tudo sobre, e até fazendo cursos pagos, já trabalhei com TI, e atualmente estou em busca 
-              de aplicação no mercado de desenvolvimento web como <span>front-end</span>, buscando em me tornar <span>fullstack</span> futuramente. No momento eu apenas trabalho voluntariamente
-              com programação de um projeto start-up de uma empresa sem ganhos financeiros, e por enquanto estou cursando no meu ultimo semestre na área de manutenção e suporte em computadores.
-              Sou uma pessoa que sempre irá buscar aprender algo na área de qualquer forma que seja, pois aprender é um habito que sempre devemos ter.</p>
+            <p>Sou de São Paulo, no ano de 2021 eu fiz uma escolha de me tornar um <span>desenvolvedor</span>, e desde então transformo ideias
+              e conceitos em um site moderno e atual. Atuo também como designer gráfico e atualmente estou em busca 
+              de aplicação no mercado de "Desenvolvimento Web" como <span>front-end</span>.
+              <br></br> Como desenvolvedor, tenho 3 anos de experiência como freelancer, com um projeto de uma empresa destacado chamado <span>"GRIMORIA"</span>.
+              Tenho confiança no meu trabalho, sou bastante ambicioso e dedicado nos meus projetos, focado em fornecer a melhor experiência para o usuário. </p>
             <div className='AboutInfo'>
               <AiOutlineMail className='AboutIcon'/>
               <div>
-              <p>Ianmarques619@gmail.com</p>
+              <p>ianvicontato@gmail.com</p>
               </div>
               <FaMapMarkerAlt className='AboutIcon'/>
               <div>
