@@ -12,9 +12,9 @@ const Footer = () => {
             Ian Vieira © 2025. Todos os direitos reservados.
           </p>
           <ul>
-            <li className='InstagramIcon'><a href="https://www.instagram.com/ianvii-/"><CiInstagram size={28}/></a></li>
-            <li className='TwitchIcon'><a href="https://www.twitch.tv/ianvi_"><FaTwitch size={28}/></a></li>
-            <li className='LinkedinIcon'><a href="https://www.linkedin.com/in/ianvi/"><TiSocialLinkedin size={28}/></a></li>
+            <li className='InstagramIcon'><a href="https://www.instagram.com/ianvii_/" target='blank'><CiInstagram size={28}/></a></li>
+            <li className='TwitchIcon'><a href="https://www.twitch.tv/ianvi_" target='blank'><FaTwitch size={28}/></a></li>
+            <li className='LinkedinIcon'><a href="https://www.linkedin.com/in/ianvi/" target='blank'><TiSocialLinkedin size={28}/></a></li>
           </ul> 
           <img src={logoianvi} alt="Logo" />
       </div>

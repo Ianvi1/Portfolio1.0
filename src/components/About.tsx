@@ -24,7 +24,7 @@ const AboutPage = () => {
             <p>Sou de São Paulo, no ano de 2021 eu fiz uma escolha de me tornar um <span>desenvolvedor</span>, e desde então transformo ideias
               e conceitos em um site moderno e atual. Atuo também como designer gráfico e atualmente estou em busca 
               de aplicação no mercado de "Desenvolvimento Web" como <span>front-end</span>.
-              <br></br> Como desenvolvedor, tenho 3 anos de experiência como freelancer, com um projeto de uma empresa destacado chamado <span>"GRIMORIA"</span>.
+              <br></br> Como desenvolvedor, tenho 3 anos de experiência como freelancer, com um projeto de uma empresa chamado <span>"GRIMORIA"</span>.
               Tenho confiança no meu trabalho, sou bastante ambicioso e dedicado nos meus projetos, focado em fornecer a melhor experiência para o usuário. </p>
             <div className='AboutInfo'>
               <AiOutlineMail className='AboutIcon'/>

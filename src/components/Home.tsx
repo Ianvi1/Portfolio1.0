@@ -10,7 +10,7 @@ const HomePage = () => {
   <main id='home'>
     <div className='HomePage'>
         <div className='TextBox'>
-          <p>Tudo bem? eu me chamo</p>
+          <p>Olá, como vai? eu me chamo</p>
           <h1 className='NameBox'>Ian Vieira</h1>
           <p>E sou um Desenvolvedor Front-End</p>
         </div>
