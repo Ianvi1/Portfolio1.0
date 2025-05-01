@@ -17,12 +17,6 @@
   display: flex;
   flex-direction: column;
   margin-right: 22rem;
-  @media screen  and (max-width: 1024px) {
-    margin-right: 15rem;
-  }
-    @media screen  and (max-width: 768px) {
-        width: 400px;   
-      }
 
     
   h1 {
@@ -41,14 +35,6 @@
     position: absolute;
     margin-top: 30px;
     margin-left: 15px;
-    @media screen  and (max-width: 1024px) {
-      width: 28rem;
-      
-    }
-    @media screen  and (max-width: 768px) {
-      width: 10rem;  
-    }
-
   }
 
   p {
@@ -56,10 +42,6 @@
     font-weight: 300;
     text-align: justify;
     letter-spacing: 1px;
-    @media screen  and (max-width: 1024px) {
-      font-size: 12px;
-      
-    }
   }
 
   .AboutInfo {
@@ -77,9 +59,7 @@
 
   .AboutInfo > div {
     margin-right: 10rem;
-    @media screen  and (max-width: 768px) {
-      margin-right: 1.8rem;
-    }
+
   }
 
   .AboutIcon {
@@ -109,14 +89,6 @@
   align-items: center;
   margin-top: 1rem;
   margin-left: 15rem;
-
-  @media screen and (max-width: 1440px) {
-    margin-top: 2rem;
-    margin-right: 5rem;
-  }
-  @media screen  and (max-width: 1024px) {
-    margin-right: 2rem;
-  }
 
 
 
@@ -185,4 +157,81 @@
   }
 }
 }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .AboutPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 2rem;
+    gap: 2rem;
+    text-align: center;
+
+  }
+
+  .AboutArea {
+    margin: 0 auto !important;
+    align-items: center;
+    text-align: center;
+    max-width: 600px;
+    width: 100%;
+
+    h1 {
+      font-size: 32px;
+    }
+
+    p {
+      font-size: 14px;
+      text-align: justify;
+    }
+
+    .Bar:after {
+      display: none;
+    }
+
+    .AboutInfo {
+      margin: 0 auto !important;
+      flex-direction: column;
+      align-items: center;
+      margin-left: 0;
+      gap: 1rem;
+
+      p {
+        position: relative;
+        top: 15%;
+        text-align: right;
+        
+      }
+      > div {
+        margin-right: 0;
+      }
+    }
+  }
+
+  .ProfileArea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto !important;
+  }
+
+  .Image {
+     position: relative;
+     top: 15%;
+     width: 40% !important;
+     height: 80% !important;
+  }
+
+  .ButtonArea.About {
+    position: relative;
+    bottom: -13%;
+  }
+
+  .AboutIcon {
+    display: none;
+  }
 }

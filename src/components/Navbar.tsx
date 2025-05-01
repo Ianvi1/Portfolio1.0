@@ -4,9 +4,11 @@ import './Navbar.scss';
 
 const Navbar = () => {
   const [activeLink, setActiveLink] = useState<string>('#home');
+  const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
 
   const handleLinkClick = (link: string) => {
     setActiveLink(link);
+    setIsMenuOpen(false); // fecha o menu após clicar
   };
 
   return (
@@ -15,7 +17,14 @@ const Navbar = () => {
         <img src={logoianvi} alt="Logo" />
         <h1>Ian Vieira</h1>
       </div>
-      <nav className="NavBar">
+
+      <div className="Hamburger" onClick={() => setIsMenuOpen(!isMenuOpen)}>
+        <span className={isMenuOpen ? 'bar open' : 'bar'}></span>
+        <span className={isMenuOpen ? 'bar open' : 'bar'}></span>
+        <span className={isMenuOpen ? 'bar open' : 'bar'}></span>
+      </div>
+
+      <nav className={`NavBar ${isMenuOpen ? 'open' : ''}`}>
         <a href="#home" className={activeLink === '#home' ? 'active' : ''} onClick={() => handleLinkClick('#home')}>Home</a>
         <a href="#about" className={activeLink === '#about' ? 'active' : ''} onClick={() => handleLinkClick('#about')}>Sobre</a>
         <a href="#skills" className={activeLink === '#skills' ? 'active' : ''} onClick={() => handleLinkClick('#skills')}>Habilidades</a>
