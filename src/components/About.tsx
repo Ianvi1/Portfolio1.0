@@ -3,7 +3,7 @@ import { IoMdDownload } from "react-icons/io";
 import { AiOutlineMail } from "react-icons/ai";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import perfil from "../../public/perfil4.0.jpg";
-import curriculo from "../../public/Curriculo Ian.pdf";
+import curriculo from "../../public/Curriculo Ian - Frontend .pdf";
 
 
 const AboutPage = () => {
